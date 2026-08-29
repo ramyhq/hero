@@ -249,17 +249,14 @@
   .ai-slot .ai-empty span{font-size:.9rem;font-weight:700;opacity:.8}
 
   .evidence{
-    display:flex;gap:16px;flex-wrap:wrap;justify-content:center;
+    display:flex;gap:22px;flex-wrap:wrap;justify-content:center;
   }
   .evidence figure{
-    background:#fff;border:3px solid var(--ink);border-radius:50%;
-    box-shadow:4px 4px 0 var(--ink);text-align:center;
-    width:150px;padding:10px 10px 6px;
+    width:200px;height:200px;border-radius:50%;overflow:hidden;
+    border:4px solid var(--ink);background:#fff;
+    box-shadow:6px 6px 0 var(--ink);
   }
-  .evidence img{width:110px;height:110px;border-radius:50%;border:3px solid var(--ink);object-fit:contain;background:#fff}
-  .evidence figcaption{
-    font-family:'Bangers',cursive;letter-spacing:1px;font-size:.8rem;margin-top:5px;
-  }
+  .evidence img{width:100%;height:100%;object-fit:cover;display:block}
   .evidence figure:nth-child(1){transform:rotate(-2deg)}
   .evidence figure:nth-child(2){transform:rotate(1.5deg)}
   .evidence figure:nth-child(3){transform:rotate(-1deg)}
@@ -332,8 +329,7 @@
   }
   @media (max-width:560px){
     .jobs-grid{grid-template-columns:1fr}
-    .evidence figure{width:100px;padding:8px 6px 4px}
-    .evidence img{width:70px;height:70px}
+    .evidence figure{width:130px;height:130px}
     .stats{grid-template-columns:1fr}
     nav .wrap{justify-content:center}
   }
@@ -516,15 +512,12 @@
         <div class="evidence">
           <figure>
             <img src="img/sahllogo.png" alt="Sahl Group logo">
-            <figcaption>SAHL GROUP</figcaption>
           </figure>
           <figure>
             <img src="img/nusk.png" alt="Nusuk platform">
-            <figcaption>THE NUSUK PLATFORM</figcaption>
           </figure>
           <figure>
             <img src="img/hhr.jpeg" alt="Haramain High Speed Railway">
-            <figcaption>HARAMAIN TRAIN</figcaption>
           </figure>
         </div>
       </div>
@@ -572,7 +565,6 @@
         <div class="evidence">
           <figure>
             <img src="img/Vodafone.png" alt="Vodafone Egypt logo">
-            <figcaption>VODAFONE EGYPT</figcaption>
           </figure>
         </div>
       </div>
@@ -619,7 +611,6 @@
         <div class="evidence">
           <figure>
             <img src="img/sahlpos.png" alt="Sahl POS logo">
-            <figcaption>SAHL POS</figcaption>
           </figure>
         </div>
       </div>
@@ -667,11 +658,9 @@
         <div class="evidence">
           <figure>
             <img src="img/xceed.png" alt="Xceed logo">
-            <figcaption>XCEED</figcaption>
           </figure>
           <figure>
             <img src="img/we.png" alt="WE — Telecom Egypt logo">
-            <figcaption>WE — TELECOM EGYPT</figcaption>
           </figure>
         </div>
       </div>
